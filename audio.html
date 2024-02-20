@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Working with audio
+        </title>
+    </head>
+    
+    <body>
+        <p>
+            This is a music.
+        </p>
+        
+        <audio controls autoplay muted loop> <!--Used for audio manipulation-->
+                                    <!--controls attribute will set up the controls for the track-->
+            <source src="audios/music.mp3" type="audio/mpeg"> <!--Type specifies the type of the source file-->
+            <source src="audios/music.wav" type="audio/wav"> <!--In this case if the first file does not play browser will try to play the second file-->
+        </audio>
+    </body>
+</html>

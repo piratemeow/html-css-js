@@ -1,0 +1,26 @@
+body{
+    background-color:beige;
+}
+
+#counterLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#container{
+    text-align: center;
+}
+.butt{
+    /* box-shadow: 2px 2px 20px; */ 
+    border-radius: 15px ;
+    font-size: 1.5em;
+    padding: 10px 10px;
+    background-color:hsl(34, 57%, 70%);
+    cursor: pointer;
+    transition: background-color .25s;
+    
+}
+.butt:hover{
+    background-color: hsl(34, 84%, 50%);
+}

@@ -1,0 +1,46 @@
+
+<!--Display is the property that specifies how the element is going to be displayed
+    block-level: starts at a new line and takes up the whole width
+    inline : does not take up the whole width and the width is limited only to the content size-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Display
+        </title>
+        <style>
+            div{
+                background-color: red;
+                height: 50px;
+                width: 50px;
+                display: inline;
+            }
+            span{
+                background-color: skyblue;
+                width: 100px;
+                height: 100px; /*height and width does not apply to the span display*/
+                display: block;
+            }
+            p{
+                display: inline;
+                
+            }
+            #div1{
+                background-color: green;
+                display: inline-block; /* this means the elemnt will be inline level but height and width can be applied*/
+            }
+            #div2{
+                /* display: none; as if the content wasn't even there */
+                visibility: hidden;
+            }
+
+        </style>
+    </head>
+    <body>
+       <div>div</div>
+       <span>span</span> 
+       <div id="div1">inline-block</div>
+       <div id="div2">None</div>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, amet eligendi aperiam exercitationem autem dolore praesentium quasi modi ducimus repellendus natus neque aut sunt impedit assumenda, minima ab et? Iste.</p>
+    </body>
+</html>

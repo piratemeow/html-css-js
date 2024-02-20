@@ -1,0 +1,19 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+#o{
+    display: inline;
+
+    background-color: aqua;
+}
+#out{
+    display: inline;
+    background-color: bisque;
+}
+
+#submit{
+    font: optional;
+    font-size: 1em;
+}

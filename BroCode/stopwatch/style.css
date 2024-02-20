@@ -1,0 +1,12 @@
+body{
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 2em;
+}
+
+
+
+#display{
+    border-radius: 10px;
+    border: solid 2px;
+}
