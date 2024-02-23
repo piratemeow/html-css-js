@@ -5,7 +5,6 @@
 // document.getElementById("mh1").innerHTML="Hello, Imran";
 // document.getElementById("mp").innerHTML = "Here is a thing on lorem."
 
-
 // let age=20;
 // let price=10.99;
 // let gpa=3.0;
@@ -13,29 +12,24 @@
 // console.log(`My age is ${age}`);
 // console.log(typeof name);
 
-
 // let online = true;
 // console.log(`${name} is online ${online}`);
 // document.getElementById('mp').textContent=`Your name is ${name}`;
 // document.getElementById('mh1').textContent=age;
 // document.getElementById("pow").textContent=2**2;
 
-
 //let username;
 //username = window.prompt("What is your name?")
 //console.log(username);
-
-
 
 // document.getElementById("butt").onclick=greet;
 
 // function greet(){
 
 //     let username = document.getElementById("in").value;
-   
+
 //     document.getElementById("h1").textContent = `Hello, ${username}`;
 // }
-
 
 // let roll = window.prompt("What is your roll no?");
 // console.log(roll, typeof roll);
@@ -61,7 +55,7 @@
 
 // document.getElementById("out").innerHTML=x
 
-// Random number generation 
+// Random number generation
 
 //let ran = Math.random() // This will generate a number from 0 to 1
 //document.getElementById("out").innerHTML = ran
@@ -71,14 +65,13 @@
 //ran = Math.floor(Math.random()*100)+1
 //document.getElementById("out").innerHTML = ran
 
-
 //Generating a number that is between min to max
 // let min = 1
 // let max = 100
 // ran = Math.floor(Math.random()*(max-min)) + min
 // document.getElementById("out").innerHTML = ran
 
-// * to check if a checkbox has been checked or not use checked element 
+// * to check if a checkbox has been checked or not use checked element
 
 // const check1 = document.getElementById("check1");
 // const check2 = document.getElementById("check2");
@@ -101,7 +94,6 @@
 //     }
 // }
 
-
 // const name = "Imran Rahman";
 // // let firstName = name.slice(0,5);
 
@@ -119,8 +111,7 @@
 
 // == checks only the value
 // === checks both the value and the type
-// !=== checks both the value and the type 
-
+// !=== checks both the value and the type
 
 // let n="12.h" ;
 // document.getElementById("out").innerHTML = n;
@@ -139,7 +130,6 @@
 // num.reverse(); // sorts in descending order
 // document.getElementById("out").innerHTML = num; // Last element
 
-
 // // Spread operator : ... this operator unpacs some iterable like array , string to the elements
 
 // let mx = Math.max(...num)
@@ -148,13 +138,11 @@
 // var u = [...num].join("-");
 // document.getElementById("out").innerHTML = u;
 
-
 // Rest parameters : (...rest) used in functions and to combine multiple
-//                  elements to a single array. Must be used once and as the last 
+//                  elements to a single array. Must be used once and as the last
 //                  parameter for a function
 
-
-// let x = 1; 
+// let x = 1;
 // let y = 2;
 // let z = 3;
 
@@ -165,7 +153,6 @@
 
 // fun(x,y,z);
 
-
 // callback = a function that is passed as an argument to another function
 // used to handle asynchronous operations:
 // reading a file
@@ -173,16 +160,15 @@
 // network request
 // it makes sure that is the passed function starts executingn when the other function is done
 
-
 // hello(goodbye);
 
 // function hello(callback){
 //     setTimeout(function(){
 //         console.log("hello");
-       
+
 //     },3000);
 //     console.log("hehe");
-//     callback();    
+//     callback();
 // }
 
 // function goodbye(){
@@ -197,7 +183,7 @@
 // num.forEach(display);
 // function display(element,index,array){
 //     console.log(element);
-    
+
 // }
 
 // function square(element,index,array){
@@ -225,13 +211,11 @@
 
 // console.log(new_dates);
 
-
 // array.filter()
 // This method takes a function that returns a boolean value for
 // an element and for the flase element it filters out the elements and retuyrns an array
 
 // let age = [12,15,10,20,18,21];
-
 
 // function isAdult(element){
 //     return element>=18;
@@ -239,7 +223,6 @@
 
 // let new_age = age.filter(isAdult);
 // console.log(new_age);
-
 
 // Array.reduce() reduces the elements of an array to a single element
 // just like the aggregate functions in database
@@ -261,8 +244,6 @@
 //     console.log(name);
 // }
 // hello("imran");
-
-
 
 // Objects : these are a collection of attributes and methods
 
@@ -335,9 +316,8 @@
 
 // console.error("This is an error")
 
-
 // Destructuraing [] for arrays
-                    // {} for objects
+// {} for objects
 // const colors = ["green","blue",'red'];
 // a =1;
 // b=2;
@@ -355,7 +335,6 @@
 //     job: "unemployed"
 // }
 
-
 // const {name,age,job} = person;
 // console.log(name,age,job);
 
@@ -364,7 +343,6 @@
 // };
 
 // displayPerson(person);
-
 
 // // Array of objects
 // const fruits = [{name:"banana"},{name: "mango"},{name:"Coconut"}];
@@ -376,20 +354,12 @@
 
 // num.sort(); // sorts lexicographically
 
-// num.sort((a,b)=> a-b) // sorts 
+// num.sort((a,b)=> a-b) // sorts
 // console.log(num);
 // console.log(typeof num[0]);
 
-
-
-
-
-
-
-
-// closure  
+// closure
 // function inside a function
-
 
 // function outer(){
 //     let message = "hello";
@@ -402,7 +372,6 @@
 
 // outer();
 
-
 // function counter(){
 //     let count = 0;
 //     function increment(){
@@ -414,25 +383,22 @@
 //     return increment;
 // }
 
-
 // const increment_counter = counter();
 
 // increment_counter();
 // increment_counter();
 // increment_counter();
 
-
-
 // import {area,circumferance} from './lib.js';
 
 // console.log(area(2));
 
-// Handaling asynchronous code 
+// Handaling asynchronous code
 // function test(callback){
-    
+
 //     console.log("Task");
 //     setTimeout(()=> {console.log("In the timer");callback()},3000);
-    
+
 // }
 
 // function for_callback(){
@@ -440,7 +406,6 @@
 // }
 
 // test(for_callback);
-
 
 // Error / exception handleing in javascript
 // network errors
@@ -469,7 +434,7 @@
 // console.dir(document);
 
 // document.title = "New title"
- 
+
 // document.body.style.backgroundColor = "red"
 
 // const username = " piratemeow";
@@ -478,14 +443,12 @@
 
 // message.textContent += username===""?" Guest":username;
 
-
-// element selector 
+// element selector
 // document.getElementById()  // returns an element or null
 // document.getElementsByClassName() // html collection
 // document.getElementsByTagName() // returns an html collection
 // document.querySelector() // returns the first matching element or null
 // document.querySelectorAll() // nodelist
-
 
 // const head = document.getElementById("welcome");
 
@@ -513,7 +476,6 @@
 // Nodelist is like html collection but they are static which means they do not updte automatically
 // and have some methods like arrays
 
-
 // creating a new html element using dom
 
 // const newh1 = document.createElement("h1");
@@ -536,7 +498,6 @@
 
 // document.body.removeChild(newh1)
 
-
 // eventListeners
 // .addEventListener (event, callback)
 // const mybx = document.getElementById("mybx");
@@ -545,17 +506,16 @@
 //     console.log(event);
 //     event.target.style.backgroundColor = "tomato";
 //     event.target.textContent = "Outch!";
-// }   
+// }
 // mybx.addEventListener("click",changecolor);
 
 // mybx.addEventListener("mouseover", function (event){
 //     event.target.style.backgroundColor = "yellow";
 //     event.target.textContent = "Don't do it!";
 // });
- 
+
 // mybx.addEventListener("mouseleave", event =>{event.target.style.backgroundColor = "green";
 // event.target.textContent = "Please don't go!";});
-
 
 // const key = document.getElementById("key");
 // let x = 0;
@@ -583,7 +543,6 @@
 //     key.style.left = `${x}px`;
 // });
 
-
 // .classList = js element property to interact with CSS classes
 // .add(class)  to add a class
 // .remove() to remove a class
@@ -596,30 +555,29 @@
 // console.log(butto.classList);
 // butto.classList.add("classs");
 
-
 // callback hell and this should be avoided
 
 // function ts1(callback){
 //     setTimeout(()=>{console.log("Task 1");
-//                 callback() 
+//                 callback()
 // },2000);
 // }
 
 // function ts2(callback){
 //     setTimeout(()=>{console.log("Task 2");
-//     callback() 
+//     callback()
 // },1000);
 // }
 
 // function ts3(callback){
 //     setTimeout(()=>{console.log("Task 3");
-//     callback() 
+//     callback()
 // },1500);
 // }
 
 // function ts4(callback){
 //     setTimeout(()=>{console.log("Task 4");
-//     callback() 
+//     callback()
 // },200);
 // }
 
@@ -631,7 +589,6 @@
 //         })
 //     }));
 // })
-
 
 // Promise : it is an object to handle asynchonous operations in Js like db, file and resource handleing.
 // We do this to avoid callback hell.
@@ -648,7 +605,7 @@
 //             else{
 //                 reject("Task1 incompleted");
 //             }
-            
+
 //         },1200);
 
 //     });
@@ -685,7 +642,6 @@
 
 // arr((e) => {console.log(e)});
 
-
 // promise = new Promise( (resolve,reject) =>{
 //     resolve ("the code is resolved " + 12);
 //     reject("error");
@@ -709,7 +665,6 @@
 
 // // fun().then((value)=>{console.log(value);}).catch((err) => console.log(err));
 
-
 // async function fun2(){
 
 //     const val = await fun();
@@ -721,24 +676,56 @@
 // working with JSON
 // json is language independent
 
-const fruits = ["banana","coconut","mango","peaches"]
-const person = {
-    "id": 3,
-    "name": "Doe",
-    "age": 30
-};
+// const fruits = ["banana","coconut","mango","peaches"]
+// const person = {
+//     "id": 3,
+//     "name": "Doe",
+//     "age": 30
+// };
 
-const jsonString = JSON.stringify(fruits);
+// const jsonString = JSON.stringify(fruits);
 
-console.log(jsonString);
-const json = JSON.parse(jsonString);
-console.log(json)
-const personString = JSON.stringify(person);
-const json2 = JSON.parse(personString);
-console.log(personString);
+// console.log(jsonString);
+// const json = JSON.parse(jsonString);
+// console.log(json)
+// const personString = JSON.stringify(person);
+// const json2 = JSON.parse(personString);
+// console.log(personString);
 
-console.log(json2);
+// console.log(json2);
 
-// fetching a json file 
+// // fetching a json file
 
-fetch("persons.json").then((response)=> response.json()).then(value => console.log(value)).catch((error)=>console.error(error));
+// fetch("persons.json").then((response)=> response.json()).then(value => console.log(value)).catch((error)=>console.error(error));
+
+async function delay_function() {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(console.log("task1"));
+    }, 2000);
+  });
+}
+
+async function delay_function2() {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(console.log("task2"));
+    }, 2);
+  });
+}
+
+async function print() {
+  // delay_function(); // prints task1 first and then task 2
+  // delay_function2();
+
+  // await delay_function(); // these will execute like synchronous code
+  // await delay_function2();
+
+  // const ts1 = delay_function();
+  // const ts2 = delay_function2();
+
+  // const all = Promise.all([ts1,ts2]); // this make ts1 and t2 to run asynchronously in this thread
+
+}
+
+print();
