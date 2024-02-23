@@ -698,23 +698,23 @@
 
 // fetch("persons.json").then((response)=> response.json()).then(value => console.log(value)).catch((error)=>console.error(error));
 
-async function delay_function() {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve(console.log("task1"));
-    }, 2000);
-  });
-}
+// async function delay_function() {
+//   return new Promise((resolve) => {
+//     setTimeout(() => {
+//       resolve(console.log("task1"));
+//     }, 2000);
+//   });
+// }
 
-async function delay_function2() {
-  return new Promise((resolve) => {
-    setTimeout(() => {
-      resolve(console.log("task2"));
-    }, 2);
-  });
-}
+// async function delay_function2() {
+//   return new Promise((resolve) => {
+//     setTimeout(() => {
+//       resolve(console.log("task2"));
+//     }, 2);
+//   });
+// }
 
-async function print() {
+// async function print() {
   // delay_function(); // prints task1 first and then task 2
   // delay_function2();
 
